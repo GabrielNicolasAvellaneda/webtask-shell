@@ -1,11 +1,9 @@
-var shelljs = require('shelljs/global');
+require('shelljs/global');
 
-module.exports = 
-  function (context, cb) {
-    var cmd = req.body.cmd;
-    var cwd = req.body.cwd;
+module.exports = function (context, cb) {
+    var cmd = context.data.cmd;
+    var cwd = context.data.cwd;
     if (!cmd) {
-      res.end();
       return;
     }
 
@@ -23,6 +21,7 @@ module.exports =
       console.log('result: ', output);
     }
 
-    var result = {output: output, cwd: pwd()});
+    var result = {output: output, cwd: pwd()};
     cb(null, result);
   };
+
