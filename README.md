@@ -6,9 +6,9 @@ NOTE: On every command request, you will be running that command at a random con
 
 ## Quickstart
 
+1. Clone the repo
 
-1. Clone the repository
-   ```bash
+    ```
       $ git clone https://github.com/GabrielNicolasAvellaneda/webtask-shell
       $ cd webtask-shell
       $ npm install
