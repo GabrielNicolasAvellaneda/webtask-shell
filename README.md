@@ -21,7 +21,7 @@ NOTE: On every command request, you will be running that command at a random con
 
 3. Run the shell
    ```bash
-      $ node shell shell-cli https://webtask.it.auth0.com/api/run/wt-avellaneda_gabriel-gmail_com-0/shell-srv?webtask_no_cache=1
+      $ node shell-cli https://webtask.it.auth0.com/api/run/wt-avellaneda_gabriel-gmail_com-0/shell-srv?webtask_no_cache=1
       /data$
    ```
 
